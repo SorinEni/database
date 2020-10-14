@@ -36,5 +36,37 @@ WHERE id_car = 1;
 SELECT *
 FROM garages;
 
+/* 13.10.20 */
+
+CREATE TABLE GARAGES (
+id_garage smallint,
+manufacturer varchar(255),
+gps_coordinates int,
+name varchar(255),
+phone_number int,
+email varchar(255),
+description varchar(255),
+PRIMARY KEY (id_garage)
+
+);
+
+ALTER TABLE cars
+ADD PRIMARY KEY (id_car);
+
+ALTER TABLE employees
+ADD PRIMARY KEY (id_employees);
+
+DELETE  FROM employees WHERE id_employees = 1;
+
+ALTER TABLE cars MODIFY COLUMN id_car INT NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE employees MODIFY COLUMN id_employees INT NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE garages MODIFY COLUMN id_garage INT NOT NULL AUTO_INCREMENT;
+
+/* 20.10.20 /*
+
+
+
 
 

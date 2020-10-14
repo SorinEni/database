@@ -41,7 +41,7 @@ FROM garages;
 CREATE TABLE GARAGES (
 id_garage smallint,
 manufacturer varchar(255),
-gps_coordinates int,
+gps_coordinates varchar(255),
 name varchar(255),
 phone_number int,
 email varchar(255),

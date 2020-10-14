@@ -38,7 +38,7 @@ FROM garages;
 
 /* 13.10.20 */
 
-CREATE TABLE GARAGES (
+CREATE TABLE garages (
 id_garage smallint,
 manufacturer varchar(255),
 gps_coordinates varchar(255),

@@ -67,7 +67,7 @@ ALTER TABLE garages MODIFY COLUMN id_garage INT NOT NULL AUTO_INCREMENT;
 /* 04.11.20 */
 
 ALTER TABLE employees
-ADD id_car;
+ADD id_car smallint;
 
 UPDATE employees
 SET id_car = 4

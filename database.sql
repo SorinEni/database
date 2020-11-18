@@ -124,6 +124,28 @@ Longitude: 10° 53' 59.99E"
 
 );
 
+/* 18.11.20 */
 
+CREATE DATABASE `covid` COLLATE 'utf8_bin';
 
+CREATE TABLE countries (
+  id_country int AUTO_INCREMENT,
+  name varchar(255) NOT NULL,
+  code varchar(10) NOT NULL,
+  description text,
+  PRIMARY KEY (id_country)
+);
+
+INSERT INTO countries (
+  name,
+  code,
+  description
+)
+VALUES (
+  'Italy',
+  'I',
+  NULL
+);
+
+/* 25.11.20 */
 

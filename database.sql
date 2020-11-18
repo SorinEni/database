@@ -74,4 +74,56 @@ SET id_car = 4
 WHERE id_employees = 4;
 
 
+/* 11.11.20 */
+
+INSERT INTO cars (
+  manufacturer,
+  model,
+  license_plate,
+  year_of_manufacturer
+)
+VALUES (
+  "Ford",
+  "Fiesta",
+  "COVID",
+  "2008"
+  
+);
+
+INSERT INTO employees (
+  firstname,
+  lastname,
+  age,
+  email
+);
+
+VALUES (
+  "Bill",
+  "Gates",
+  "65",
+  "BillyGate@microsoft.com"
+);
+
+INSERT INTO garages (
+  manufacturer,
+  gps_coordinates,
+  name,
+  phone_number,
+  email,
+  description
+);
+
+VALUES (
+ "Ford"
+"Latitude: 63° 25' 59.99N 
+Longitude: 10° 53' 59.99E"
+"pepa"
+"666420666"
+"pepajebohatej@richpepa.com"
+"hodně drahé auto"
+
+);
+
+
+
 

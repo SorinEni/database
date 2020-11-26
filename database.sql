@@ -165,4 +165,127 @@ INSERT INTO `countries` (`id_country`, `name`, `code`, `description`) VALUES
 
 /* 25.11.20 */
 
+ALTER TABLE countries
+ADD deaths_total int;
+
+
+UPDATE countries
+SET deaths_total = 7499
+WHERE id_country = 1;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 6499
+WHERE id_country = 2;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 5499
+WHERE id_country = 3;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 4499
+WHERE id_country = 4;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 3499
+WHERE id_country = 5;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 2499
+WHERE id_country = 6;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 1499
+WHERE id_country = 7;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 1599
+WHERE id_country = 8;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 2599
+WHERE id_country = 9;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 3599
+WHERE id_country = 10;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 4599
+WHERE id_country = 11;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 5599
+WHERE id_country = 12;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 6599
+WHERE id_country = 13;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 7599
+WHERE id_country = 14;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 8599
+WHERE id_country = 15;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 9599
+WHERE id_country = 16;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 9699
+WHERE id_country = 17;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 8699
+WHERE id_country = 18;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 7699
+WHERE id_country = 19;
+SELECT * FROM countries;
+
+
+UPDATE countries
+SET deaths_total = 6699
+WHERE id_country = 20;
+SELECT * FROM countries;
+
 

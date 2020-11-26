@@ -141,11 +141,28 @@ INSERT INTO countries (
   code,
   description
 )
-VALUES (
-  'Italy',
-  'I',
-  NULL
-);
+INSERT INTO `countries` (`id_country`, `name`, `code`, `description`) VALUES
+(1,	'Poland',	'POL',	NULL),
+(2,	'Italy',	'ITA',	NULL),
+(3,	'Czech republic',	'CZE',	NULL),
+(4,	'Canada',	'CAN',	NULL),
+(5,	'Chile',	'CHL',	NULL),
+(6,	'China',	'CHN',	NULL),
+(7,	'Romania',	'ROM',	NULL),
+(8,	'Slovakia',	'SVK',	NULL),
+(9,	'Russia',	'RUS',	NULL),
+(10,	'Sweden',	'SWE',	NULL),
+(11,	'Ukraine',	'UKR',	NULL),
+(12,	'Vietnam',	'VNM',	NULL),
+(13,	'Japan',	'JPN',	NULL),
+(14,	'Azerbaijan',	'AZE',	NULL),
+(15,	'Niger',	'NER',	NULL),
+(16,	'Norway',	'NOR',	NULL),
+(17,	'Iraq',	'IRQ',	NULL),
+(18,	'Iran',	'IRN',	NULL),
+(19,	'Kazakhstan',	'KAZ',	NULL),
+(20,	'United Arab Emirates',	'ARE',	NULL);
 
 /* 25.11.20 */
+
 

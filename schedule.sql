@@ -19,32 +19,32 @@ lesson_number int,
 day_of_week tinyint); 
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("1", "1", "1", "1", "1", "1")
+VALUES ("1", "1", "1", "1", "1", "1");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("2", "2", "2", "3", "2", "3")
+VALUES ("2", "2", "2", "3", "2", "3");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("3", "1", "3", "2", "3", "5")
+VALUES ("3", "1", "3", "2", "3", "5");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("4", "3", "1", "1", "4", "4")
+VALUES ("4", "3", "1", "1", "4", "4");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("5", "5", "2", "3", "5", "5")
+VALUES ("5", "5", "2", "3", "5", "5");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("6", "4", "3", "2", "6", "4")
+VALUES ("6", "4", "3", "2", "6", "4");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("7", "3", "1", "1", "7", "3")
+VALUES ("7", "3", "1", "1", "7", "3");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("8", "5", "2", "3", "8", "2")
+VALUES ("8", "5", "2", "3", "8", "2");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("9", "2", "3", "2", "9", "1")
+VALUES ("9", "2", "3", "2", "9", "1");
 
 INSERT INTO schedule (id_schedule, id_classroom, id_teacher, id_subject, lesson_number, day_of_week)
-VALUES ("10", "4", "3", "1", "9", "1")
+VALUES ("10", "4", "3", "1", "9", "1");
 

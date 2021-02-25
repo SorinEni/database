@@ -314,8 +314,9 @@ SELECT *
 FROM countries
 WHERE deaths_total <= 1000 OR deaths_total >= 5000;
 
-/* 16.12.20 */
+/* 25.02.21 */
 
-
+ALTER TABLE students
+ADD UNIQUE (email);
 
 /* datum */
